@@ -1724,126 +1724,125 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
 body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
   margin: 0;
   padding: 0;
-  font-family: Georgia,"Times New Roman",Times,"Kai","Kaiti SC","KaiTi","BiauKai","楷体","楷体_GB2312",serif;
-  text-shadow: -1px 0 0 rgba(0, 0, 0, 0.75); }
+  font-family: "Georgia," Times New Roman ",Times," Kai "," Kaiti SC "," KaiTi "," BiauKai "," 楷体 "," 楷体_GB2312 ",serif"; }
 
 /** 设置默认字体 **/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\000038}}
 body, button, input, select, textarea {
   font-family: "Georgia," Times New Roman ",Times," Kai "," Kaiti SC "," KaiTi "," BiauKai "," 楷体 "," 楷体_GB2312 ",serif"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000312}}
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000313}}
 address, cite, dfn, em, var {
   font-style: normal; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000314}}
 code, kbd, pre, samp {
   font-family: courier new, courier, monospace; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000315}}
 small {
   font-size: 12px; }
 
 /** 重置文本格式元素 **/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000319}}
 a {
   text-decoration: none;
   color: #555; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000320}}
 a:hover {
   color: #2284E2;
   text-decoration: underline; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000321}}
 b {
   font-weight: normal; }
 
 /** 重置表单元素 **/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000323}}
 legend {
   color: #000; }
 
 /* for ie6 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000324}}
 fieldset, img {
   border: 0; }
 
 /* img 搭车：让链接里的 img 无边框 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000325}}
 button, input, select, textarea {
   font-size: 100%; }
 
 /* 使得表单元素在 ie 下能继承字体大小 */
 /** 重置表格元素 **/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000328}}
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
 /* 重置 HTML5 元素 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000331}}
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section,
 summary, time, mark, audio, video {
   display: block;
   margin: 0;
   padding: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000337}}
 mark {
   background: #ff0; }
 
 /*修复IE 6不居中bug*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000340}}
 body {
   background-color: #fff;
   color: #333; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000344}}
 body.dark {
   text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000347}}
 :focus {
   outline: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000350}}
 .layout {
   width: 960px;
   *text-align: left;
   margin: 0 auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000356}}
 .clearfix, .layout, ul.left, dl.left, ol.left {
   *display: inline;
   *zoom: 1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000359}}
   .clearfix:after, .layout:after, ul.left:after, dl.left:after, ol.left:after {
     content: "";
     display: table;
     clear: both; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000368}}
 ul, ol li {
   list-style: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000372}}
 ul.left li, ol.left li, dl.left dt, dl.left dd {
   float: left;
   display: block;
   list-style: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000379}}
 .inlinefix, .inline-block, .bns-data-page .action span, .bns-data-page .action a {
   display: inline-block;
   *display: inline;
   *zoom: 1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000387}}
 .breakfix {
   /*禁止换行 */
   word-break: keep-all;
@@ -1851,7 +1850,7 @@ ul.left li, ol.left li, dl.left dt, dl.left dd {
   white-space: nowrap;
   overflow: visible; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\0000394}}
 .keepfix {
   /*强制超出换行 */
   word-break: break-all;
@@ -1859,7 +1858,7 @@ ul.left li, ol.left li, dl.left dt, dl.left dd {
   white-space: normal;
   overflow: hidden; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/reset\.scss}line{font-family:\00003100}}
 .leftfix {
   margin-left: -3px; }
 
@@ -1976,54 +1975,56 @@ ul.left li, ol.left li, dl.left dt, dl.left dd {
   -moz-box-shadow: inset 0 0 10px #336600;
   box-shadow: inset 0 0 10px #336600; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/index\.scss}line{font-family:\00003100}}
-.x-recommed .left-aside {
-  width: 25%;
-  position: fixed;
-  left: 45px;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  overflow: hidden;
-  background-color: #555555; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/index\.scss}line{font-family:\00003109}}
-  .x-recommed .left-aside .cover-img {
-    background-image: url(../img/0.jpg);
-    position: absolute;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/index\.scss}line{font-family:\0000399}}
+.x-recommed {
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/index\.scss}line{font-family:\00003101}}
+  .x-recommed .left-aside {
+    width: 25%;
+    position: fixed;
+    left: 45px;
+    right: 0;
     top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-size: cover; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/index\.scss}line{font-family:\00003120}}
-.x-recommed .right-aside {
-  padding-left: 10px;
-  margin-left: 25%;
-  width: 60.66667%;
-  position: fixed;
-  border-bottom: 1px solid #999;
-  left: 45px;
-  top: 0px; }
+    bottom: 0;
+    overflow: hidden;
+    background-color: #555555; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/index\.scss}line{font-family:\00003110}}
+    .x-recommed .left-aside .cover-img {
+      background-image: url(../img/0.jpg);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-position: center;
+      background-size: cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/index\.scss}line{font-family:\00003121}}
+  .x-recommed .right-aside {
+    padding-left: 10px;
+    margin-left: 27.5%;
+    width: 60.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/index\.scss}line{font-family:\00003130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/index\.scss}line{font-family:\00003127}}
 .x-block {
   position: absolute;
   bottom: 0;
   padding: 30px;
   color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/index\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/index\.scss}line{font-family:\00003132}}
   .x-block h1 {
     font-size: 38px;
-    line-height: 40px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/index\.scss}line{font-family:\00003139}}
+    line-height: 40px;
+    text-shadow: -1px 0 0 rgba(0, 0, 0, 0.75); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/index\.scss}line{font-family:\00003137}}
   .x-block h3 {
     font-size: 20px;
-    line-height: 40px; }
+    line-height: 40px;
+    text-shadow: -1px 0 0 rgba(0, 0, 0, 0.75); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/index\.scss}line{font-family:\00003144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/index\.scss}line{font-family:\00003143}}
 .x-page-title {
-  border-bottom: none; }
+  border-bottom: 1px solid #999;
+  height: 3.5em; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/index\.scss}line{font-family:\00003146}}
   .x-page-title .title {
     float: left;
@@ -2031,14 +2032,13 @@ ul.left li, ol.left li, dl.left dt, dl.left dd {
     font-weight: 400;
     line-height: 20px;
     padding: 15px;
-    display: inline-block;
-    color: #999999; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/index\.scss}line{font-family:\00003155}}
+    color: #999; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/index\.scss}line{font-family:\00003154}}
   .x-page-title .search-form {
     float: left;
     padding-top: 10px;
     margin-left: 50%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/index\.scss}line{font-family:\00003160}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/index\.scss}line{font-family:\00003159}}
   .x-page-title .search-query {
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
@@ -2047,3 +2047,76 @@ ul.left li, ol.left li, dl.left dt, dl.left dd {
     border: 1px solid #cccccc;
     padding: 4px 6px;
     font-size: 12px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/index\.scss}line{font-family:\00003169}}
+.x-list {
+  margin: 20px 0 0;
+  padding-left: 3em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/index\.scss}line{font-family:\00003172}}
+  .x-list li {
+    position: relative;
+    width: 100%;
+    margin: 0 0 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #d9d9d9; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/index\.scss}line{font-family:\00003179}}
+  .x-list .title {
+    margin: 0 auto;
+    display: inherit;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/index\.scss}line{font-family:\00003186}}
+    .x-list .title:hover {
+      text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/index\.scss}line{font-family:\00003190}}
+  .x-list .content {
+    color: #555;
+    font-family: "Hiragino Sans GB",方正兰亭黑,STHeiti,华文黑体,"Microsoft YaHei",微软雅黑,STHei,华文黑体,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/index\.scss}line{font-family:\00003197}}
+  .x-list .article-info {
+    margin-top: 5px;
+    margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/index\.scss}line{font-family:\00003200}}
+    .x-list .article-info span {
+      margin-right: 10px;
+      font-size: 14px;
+      font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+      color: #999; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/index\.scss}line{font-family:\00003206}}
+    .x-list .article-info i {
+      margin-right: 4px;
+      color: #999; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/index\.scss}line{font-family:\00003212}}
+.x-page {
+  margin: 30px 0;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/index\.scss}line{font-family:\00003215}}
+  .x-page a {
+    color: #333;
+    padding: 15px 25px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 1px dashed #ccc; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/index\.scss}line{font-family:\00003221}}
+    .x-page a:hover {
+      text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/index\.scss}line{font-family:\00003226}}
+.go-top {
+  position: fixed;
+  font-size: 40px;
+  right: 4%;
+  bottom: -110px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/index\.scss}line{font-family:\00003234}}
+  .go-top:hover {
+    text-decoration: none;
+    color: #999; }

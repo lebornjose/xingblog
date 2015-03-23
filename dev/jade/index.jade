@@ -1,6 +1,8 @@
 extend mods/body
 block title
   title 首页
+block script
+  script(type="application/javascript", src="js/page/index.js")
 block content
   .x-nvabar.x-nvabar-jianshu.expanded
     .dropdown
@@ -23,14 +25,37 @@ block content
         li.menu-items-type
           a(href="#", target="_blank",title="订阅")
             i.icon-magic
-    .x-recommed
-      .left-aside
-        .cover-img
-          .x-block
-            h1 Super xing
-            h3 颓废中保持乐观，忙碌中鄙视功利，永保一颗向往的心。
-      .right-aside
-        .x-page-title
-          h5.title 梦想永远是现代式，而绝非将来式。
-          form(id="", method="", action="",class="search-form")
-            input(type="text", placeholder="搜索",class="search-query")
+  .x-recommed
+    .left-aside
+      .cover-img
+        .x-block
+          h1 Super xing
+          h3 颓废中保持乐观，忙碌中鄙视功利，永保一颗向往的心。
+    .right-aside
+      .x-page-title
+        h5.title 梦想永远是现代式，而绝非将来式。
+        form(id="", method="", action="",class="search-form")
+          input(type="text", placeholder="搜索",class="search-query")
+      ul.x-list
+        each i in[0,0,0,0,0,0,0,0,0,0,0]
+          li.clearfix
+            article
+              a(href="http://", class="title") 男女交往最忌讳的是什么
+              .content 男女交往忌讳一个字：贪。 什么都想要，想要的东西还都恰恰相反。 姑娘们沐浴着爱情的幸福阳光，心中却长存淡淡的嫌弃。 嫌风趣幽默年轻俊美的小伙子周围姑娘太多，嫌老实忠厚没异性缘的太不解风情。 有钱的太老，年轻的太穷，找到一个年轻又有钱的二代小开，又嫌人家少爷脾气你伺候不来。 爱你的你觉得是缰绳是束缚，董...
+              .article-info
+                span
+                  i.icon-calendar 
+                  | 2015/03/19
+                span
+                  i.icon-book 
+                  | 停不下来思考
+                span
+                  i.icon-comments-alt 
+                  | 10
+                span
+                  i.icon-heart-empty 
+                  | 12
+      .x-page
+        a(href="http://", target="_blank") 点击查看更多
+      a(class="go-top",style="bottom: 110px;"): i.icon-circle-arrow-up
+
