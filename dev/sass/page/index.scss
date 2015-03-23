@@ -117,6 +117,15 @@
       background-size: cover;
     }
   }
+  .right-aside{
+    padding-left:10px;
+    margin-left: 25%;
+    width: 60.66667%;
+    position: fixed;
+    border-bottom:1px solid #999;
+    left: 45px;
+    top:0px;
+  }
 }
 .x-block{
   position: absolute;
@@ -130,5 +139,31 @@
   h3{
     font-size: 20px;
     line-height: 40px;
+  }
+}
+.x-page-title{
+  border-bottom: none;
+  .title{
+    float:left;
+    font-size: 0.8em;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 15px;
+    display: inline-block;
+    color: #999999;
+  }
+  .search-form{
+    float:left;
+    padding-top:10px;
+    margin-left: 50%;
+  }
+  .search-query{
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    text-indent: 6px;
+    border: 1px solid #cccccc;
+    padding: 4px 6px;
+    font-size: 12px;
   }
 }
