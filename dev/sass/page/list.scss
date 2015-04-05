@@ -1,0 +1,20 @@
+.x-list-content{
+  margin-left: 5%;
+  padding: 1.5em 1em;
+  h2{
+  	line-height: 40px;
+  	font-size: 1.4em;
+  }
+  li{
+  	line-height: 1.5em;
+  	a{
+  	  &:hover{
+  	  	text-decoration: none;
+  	  	color: #000;
+  	  }	
+  	}
+  }
+}
+.page{
+  
+}
