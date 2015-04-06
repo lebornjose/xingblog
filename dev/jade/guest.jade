@@ -1,8 +1,10 @@
 extend mods/body
 block title
-  title 文章列表
+  title 留言板
+block script
+  script(type="application/javascript", src="js/page/guest.js")
 block content
-  .x-qaqx
+  .x-qaq
     a(href="index.html", class="cd") 兴
   .x-nvabar.x-nvabar-jianshu.expanded
     .dropdown
@@ -14,7 +16,7 @@ block content
           a(href="about.html",target="_blank",title="关于Super xing")
             i.icon-group
         li.menu-items-tyoe
-          a(href="cat.html", target="_blank",title="文章分类")
+          a(href="list.html", target="_blank",title="文章分类")
             i.icon-book
         li.menu-items-type
           a(href="#", target="_blank",title="空间支持")
@@ -24,22 +26,15 @@ block content
             i.icon-star
         li.menu-items-type
           a(href="#", target="_blank",title="订阅")
-            i.icon-magic
-  .x-list-content
-    h2 文章列表
-    ul
-       each i in [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-        li: a(href="detail.html") 一线投资人看社交投资：社交不好做 做好不得了
-    .page
-      | 共
-      span 70
-      | 条记录
-      em 1
-      a(href="#") 2
-      a(href="#") 3
-      a(href="#") 4
-      a(href="#") 5
-      a(href="#") 6
-      a(href="#") 7
-      a(href="#") 下一页
-      a(href="#") 尾页
+            i.icon-magic 
+  .x-guest-content
+    .article
+      h1 留言板
+      .article-info
+        span 2014-04-05 11:37
+        span 字数: 21
+        span 阅读量: 5,334
+      h2 在这里可以灌水、吹牛、扯淡，但不可以订外卖
+     //- 多说评论框 start
+    .ds-thread(data-thread-key="111111111",data-title="留言板",data-url="http://leborn.me/")
+     //- 多说评论框 end

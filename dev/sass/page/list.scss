@@ -1,9 +1,10 @@
 .x-list-content{
   margin-left: 5%;
-  padding: 1.5em 1em;
+  padding:0 1em;
   h2{
   	line-height: 40px;
   	font-size: 1.4em;
+    color: #669933;
   }
   li{
   	line-height: 1.5em;
@@ -16,5 +17,31 @@
   }
 }
 .page{
-  
+  width: 100%;
+  margin-top: 0.5em;
+  height: 3em;
+  color: #999;
+  span{
+    color: #000;
+    margin:0 4px;
+  }
+  em{
+    line-height: 2em;
+    border: 1px solid #ddd;
+    display: inline-block;
+    color: #999;
+    padding:0 12px;
+    margin-left:0.3em;
+    background-color: #eee;
+    margin-right:-1px;
+  }
+  a{
+    line-height: 2em;
+    margin-top:0.5em;
+    display: inline-block;
+    padding: 0 12px;
+    border: 1px solid #ddd;
+    color: #999;
+    margin-right: -1px;
+  }
 }

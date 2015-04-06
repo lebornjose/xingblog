@@ -1,8 +1,8 @@
 extend mods/body
 block title
-  title 文章列表
+  title 文章分类
 block content
-  .x-qaqx
+  .x-qaq
     a(href="index.html", class="cd") 兴
   .x-nvabar.x-nvabar-jianshu.expanded
     .dropdown
@@ -14,7 +14,7 @@ block content
           a(href="about.html",target="_blank",title="关于Super xing")
             i.icon-group
         li.menu-items-tyoe
-          a(href="cat.html", target="_blank",title="文章分类")
+          a(href="list.html", target="_blank",title="文章分类")
             i.icon-book
         li.menu-items-type
           a(href="#", target="_blank",title="空间支持")
@@ -24,22 +24,23 @@ block content
             i.icon-star
         li.menu-items-type
           a(href="#", target="_blank",title="订阅")
-            i.icon-magic
-  .x-list-content
-    h2 文章列表
-    ul
-       each i in [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-        li: a(href="detail.html") 一线投资人看社交投资：社交不好做 做好不得了
-    .page
-      | 共
-      span 70
-      | 条记录
-      em 1
-      a(href="#") 2
-      a(href="#") 3
-      a(href="#") 4
-      a(href="#") 5
-      a(href="#") 6
-      a(href="#") 7
-      a(href="#") 下一页
-      a(href="#") 尾页
+            i.icon-magic 
+  .x-cat-content
+    h2 文章分类
+    ul.cat-list
+      li
+        a(href="list.html") 
+          i.icon-star
+          | 个人感悟
+      li
+        a(href="list.html") 
+          i.icon-star
+          | 技术体会
+      li
+        a(href="list.html") 
+          i.icon-star 
+          | 热爱前端
+      li
+        a(href="list.html") 
+          i.icon-star
+          | 我是Super man

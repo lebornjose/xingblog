@@ -1,64 +1,4 @@
 @charset "UTF-8";
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/animation\.scss}line{font-family:\000031}}
-.spinner {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  background-color: #ccc;
-  z-index: 1000;
-  -moz-opacity: 0.7;
-  opacity: .70;
-  filter: alpha(opacity=70); }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/animation\.scss}line{font-family:\0000313}}
-.cube1, .cube2 {
-  background-color: #67CF22;
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-animation: cubemove 1.8s infinite ease-in-out;
-  animation: cubemove 1.8s infinite ease-in-out; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/animation\.scss}line{font-family:\0000325}}
-.cube2 {
-  -webkit-animation-delay: -0.9s;
-  animation-delay: -0.9s; }
-
-@-webkit-keyframes cubemove {
-  25% {
-    -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5); }
-
-  50% {
-    -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg); }
-
-  75% {
-    -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5); }
-
-  100% {
-    -webkit-transform: rotate(-360deg); } }
-@keyframes cubemove {
-  25% {
-    transform: translateX(42px) rotate(-90deg) scale(0.5);
-    -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5); }
-
-  50% {
-    transform: translateX(42px) translateY(42px) rotate(-179deg);
-    -webkit-transform: translateX(42px) translateY(42px) rotate(-179deg); }
-
-  50.1% {
-    transform: translateX(42px) translateY(42px) rotate(-180deg);
-    -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg); }
-
-  75% {
-    transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
-    -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5); }
-
-  100% {
-    transform: rotate(-360deg);
-    -webkit-transform: rotate(-360deg); } }
 @font-face {
   font-family: 'FontAwesome';
   src: url(font.eot);
@@ -1922,6 +1862,66 @@ ul.left li, ol.left li, dl.left dt, dl.left dd {
 .leftfix {
   margin-left: -3px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/animation\.scss}line{font-family:\000031}}
+.spinner {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: #ccc;
+  z-index: 1000;
+  -moz-opacity: 0.7;
+  opacity: .70;
+  filter: alpha(opacity=70); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/animation\.scss}line{font-family:\0000313}}
+.cube1, .cube2 {
+  background-color: #67CF22;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-animation: cubemove 1.8s infinite ease-in-out;
+  animation: cubemove 1.8s infinite ease-in-out; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/base\/animation\.scss}line{font-family:\0000325}}
+.cube2 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s; }
+
+@-webkit-keyframes cubemove {
+  25% {
+    -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5); }
+
+  50% {
+    -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg); }
+
+  75% {
+    -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5); }
+
+  100% {
+    -webkit-transform: rotate(-360deg); } }
+@keyframes cubemove {
+  25% {
+    transform: translateX(42px) rotate(-90deg) scale(0.5);
+    -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5); }
+
+  50% {
+    transform: translateX(42px) translateY(42px) rotate(-179deg);
+    -webkit-transform: translateX(42px) translateY(42px) rotate(-179deg); }
+
+  50.1% {
+    transform: translateX(42px) translateY(42px) rotate(-180deg);
+    -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg); }
+
+  75% {
+    transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
+    -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5); }
+
+  100% {
+    transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg); } }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/about\.scss}line{font-family:\000031}}
 .x-about-content {
   margin-left: 5%;
@@ -1936,63 +1936,6 @@ ul.left li, ol.left li, dl.left dt, dl.left dd {
     text-indent: 2em;
     padding: 0.5em 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/cat\.scss}line{font-family:\000031}}
-.x-cat-content {
-  margin-left: 5%;
-  padding: 1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/cat\.scss}line{font-family:\000034}}
-  .x-cat-content h2 {
-    line-height: 40px;
-    font-size: 1.4em;
-    color: #669933; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/cat\.scss}line{font-family:\0000311}}
-.cat-list li {
-  line-height: 2.5em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/cat\.scss}line{font-family:\0000314}}
-.cat-list i {
-  margin-right: 0.5em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/cat\.scss}line{font-family:\0000318}}
-.cat-list a:hover {
-  text-decoration: none;
-  color: #e17967; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/guest\.scss}line{font-family:\000031}}
-.x-guest-content {
-  margin: 0 auto;
-  width: 880px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/guest\.scss}line{font-family:\000034}}
-  .x-guest-content .article {
-    bottom: 0;
-    padding-bottom: 0;
-    font-family: "Hiragino Sans GB",方正兰亭黑,STHeiti,华文黑体,"Microsoft YaHei",微软雅黑,STHei,华文黑体,"Helvetica Neue",Helvetica,sans-serif;
-    font-size: 16px;
-    font-weight: 100;
-    line-height: 35px;
-    color: #333; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/guest\.scss}line{font-family:\0000312}}
-    .x-guest-content .article h1 {
-      font-size: 2.5em;
-      margin-bottom: 15px;
-      margin-top: 15px;
-      line-height: 40px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/guest\.scss}line{font-family:\0000318}}
-    .x-guest-content .article h2 {
-      font-size: 2em;
-      line-height: 40px;
-      margin-bottom: 20px;
-      text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/guest\.scss}line{font-family:\0000324}}
-    .x-guest-content .article .article-info {
-      color: #999;
-      margin-bottom: 20px;
-      font-size: 0.8em; }
-
-@media screen and (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/guest\.scss}line{font-family:\0000332}}
-  .x-guest-content {
-    width: 90%;
-    margin-top: 60px; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/index\.scss}line{font-family:\000031}}
 .x-nvabar {
   left: 0;
@@ -2330,31 +2273,30 @@ footer {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/list\.scss}line{font-family:\000031}}
 .x-list-content {
   margin-left: 5%;
-  padding: 0 1em; }
+  padding: 1.5em 1em; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/list\.scss}line{font-family:\000034}}
   .x-list-content h2 {
     line-height: 40px;
-    font-size: 1.4em;
-    color: #669933; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/list\.scss}line{font-family:\000039}}
+    font-size: 1.4em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/list\.scss}line{font-family:\000038}}
   .x-list-content li {
     line-height: 1.5em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/list\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/list\.scss}line{font-family:\0000311}}
     .x-list-content li a:hover {
       text-decoration: none;
       color: #000; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/list\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/list\.scss}line{font-family:\0000318}}
 .page {
   width: 100%;
   margin-top: 0.5em;
   height: 3em;
   color: #999; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/list\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/list\.scss}line{font-family:\0000323}}
   .page span {
     color: #000;
     margin: 0 4px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/list\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/list\.scss}line{font-family:\0000327}}
   .page em {
     line-height: 2em;
     border: 1px solid #ddd;
@@ -2364,7 +2306,7 @@ footer {
     margin-left: 0.3em;
     background-color: #eee;
     margin-right: -1px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/list\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/list\.scss}line{font-family:\0000337}}
   .page a {
     line-height: 2em;
     margin-top: 0.5em;
