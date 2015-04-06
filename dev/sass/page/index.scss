@@ -261,7 +261,7 @@
   .footer{width:100%;margin-left:0;padding-left:0;text-align:center;}
   .x-recommed{
     .left-aside{display:none;}
-    .right-aside{width:100%;padding-top: 70px;padding-left:0;margin-left: 0;}
+    .right-aside{width:100%;padding-top: 2.5em;padding-left:0;margin-left: 0;}
     .x-list{padding-left:1em;}
     .x-page-title{padding-left:0;}
   }
@@ -271,7 +271,7 @@
     display: none;
   }
 }
-footer{
+.footer{
   border-top:1px solid #999;
   padding-left:3em;
   margin-top:1em;
@@ -291,4 +291,28 @@ footer{
   .copyright{
     line-height: 2em;
   }
+}
+.footer1{
+  border-top:1px solid #999;
+  padding-left:3em;
+  margin-top:1em;
+  margin-bottom: 1em;
+  width: 100%;
+  text-align: center;
+  .links{
+    line-height: 2em;
+    a{
+      margin-right: 20px;
+      &:hover{
+        text-decoration: none;
+        color: #669933;
+      }
+    }
+  }
+  .copyright{
+    line-height: 2em;
+  }
+}
+@media screen and(max-width:768px){
+  .footer1{padding:0;}
 }

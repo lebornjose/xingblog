@@ -1,6 +1,7 @@
 .x-list-content{
-  margin-left: 5%;
-  padding:0 1em;
+  width:880px;
+  padding: 1em;
+  margin:0 auto;
   h2{
   	line-height: 40px;
   	font-size: 1.4em;
@@ -43,5 +44,11 @@
     border: 1px solid #ddd;
     color: #999;
     margin-right: -1px;
+  }
+}
+@media screen and(max-width:768px){
+  .x-list-content{
+    width:90%;
+    margin: 3em 0;
   }
 }
