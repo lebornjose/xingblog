@@ -1,6 +1,8 @@
 extend mods/body
 block title
   title 文章详情
+block script
+  script(type="application/javascript", src="js/page/guest.js")
 block content
   .x-about-content
     h2 男女交往最忌讳的什么
@@ -13,4 +15,16 @@ block content
       p 对于互联网，我觉得我是一个懂互联网的人。有产品概念的人。我认为一个产品最重要的是 “做自己”，有自己的特色，有自己的灵魂，这样一个产品才能经久不衰。
       p 喜欢阅读，热爱运动，喜欢挑战并且有很强的适应能力；
       P 颓废中保持乐观，忙碌中鄙视功利，不知不觉违背初衷，时隔一载解开心结，选择众多一味迷惘，永保一颗向往的心。
+    .single-footer
+      .prev-next
+        a(href="http://", class="before",title="男女交往最忌讳什么") 
+          i.icon-arrow-left
+          | 上一篇
+        a(href="#") 男女交往最忌讳什么
+        a(href="http://", class="after",title="MySQL字段数据类型") 下一篇: 
+        a(href="#" class="next" title="MySQL字段数据类型") MySQL字段数据类型
+        i.icon-arrow-right
+     //- 多说评论框 start
+    .ds-thread(data-thread-key="1232423",data-title="留言板",data-url="http://leborn.me/")
+     //- 多说评论框 end
   include  mods/footer1

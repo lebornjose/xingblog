@@ -1974,6 +1974,56 @@ ul.left li, ol.left li, dl.left dt, dl.left dd {
     margin-top: 2.5em;
     width: 90%;
     margin-left: 10%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/detail\.scss}line{font-family:\000031}}
+.post-like {
+  margin: 20px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/detail\.scss}line{font-family:\000033}}
+  .post-like .done {
+    background-color: #669933 !important;
+    border-color: #669933;
+    color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/detail\.scss}line{font-family:\000038}}
+  .post-like a {
+    padding: 8px 24px;
+    font-size: 14px;
+    color: #669933;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    -webkit-transition: background 0.2S linear;
+    -moz-transition: background 0.2S linear;
+    -o-transition: background 0.2S linear;
+    transition: background 0.2S linear;
+    border: 1px solid #669933; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/detail\.scss}line{font-family:\0000320}}
+    .post-like a:hover {
+      text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/detail\.scss}line{font-family:\0000325}}
+.single-footer {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #666; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/detail\.scss}line{font-family:\0000331}}
+  .single-footer a {
+    color: #666;
+    font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/detail\.scss}line{font-family:\0000334}}
+    .single-footer a:hover {
+      color: #333;
+      text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/detail\.scss}line{font-family:\0000339}}
+  .single-footer .after {
+    margin-left: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/detail\.scss}line{font-family:\0000342}}
+  .single-footer .next {
+    margin-right: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/detail\.scss}line{font-family:\0000346}}
+  .single-footer .before i {
+    margin-right: 10px; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/guest\.scss}line{font-family:\000031}}
 .x-guest-content {
   margin: 0 auto;
