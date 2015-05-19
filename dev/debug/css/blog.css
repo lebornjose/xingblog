@@ -2432,7 +2432,7 @@ ul.left li, ol.left li, dl.left dt, dl.left dd {
     color: #669933; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/list\.scss}line{font-family:\0000310}}
   .x-list-content li {
-    line-height: 1.5em; }
+    line-height: 2em; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/list\.scss}line{font-family:\0000313}}
     .x-list-content li a:hover {
       text-decoration: none;
@@ -2445,7 +2445,7 @@ ul.left li, ol.left li, dl.left dt, dl.left dd {
   height: 3em;
   color: #999; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/list\.scss}line{font-family:\0000325}}
-  .page span {
+  .page strong {
     color: #000;
     margin: 0 4px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/huangxing\/projects\/blog\/xingblog\/dev\/sass\/page\/list\.scss}line{font-family:\0000329}}

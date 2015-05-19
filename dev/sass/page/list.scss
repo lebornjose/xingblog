@@ -8,7 +8,7 @@
     color: #669933;
   }
   li{
-  	line-height: 1.5em;
+  	line-height: 2em;
   	a{
   	  &:hover{
   	  	text-decoration: none;
@@ -22,7 +22,7 @@
   margin-top: 0.5em;
   height: 3em;
   color: #999;
-  span{
+  strong{
     color: #000;
     margin:0 4px;
   }
